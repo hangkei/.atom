@@ -1,5 +1,7 @@
 "*":
+  "autocomplete-plus": {}
   core:
+    audioBeep: false
     themes: [
       "one-dark-ui"
       "monokai"
@@ -31,4 +33,7 @@
 ".html.php.text":
   editor:
     softWrap: false
+    tabLength: 4
+".perl.source":
+  editor:
     tabLength: 4

@@ -7,4 +7,5 @@ dev
 packages
 blob-store
 node_modules
+projects.cson
 
