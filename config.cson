@@ -9,7 +9,7 @@
     lineHeight: 1.3
     showIndentGuide: true
     showInvisibles: true
-    softWrap: true
+    softTabs: false
   "exception-reporting":
     userId: "323d60fb-5bac-8696-f1ac-04ee74c1f249"
   "highlight-line":
@@ -31,6 +31,9 @@
     plugins:
       "minimap-autohide": true
       "minimap-hide": true
+  "trailing-spaces":
+    enableForCursorLines: true
+    enableForIndentation: true
   welcome:
     showOnStartup: false
 ".html.php.text":
