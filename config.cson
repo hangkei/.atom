@@ -17,15 +17,7 @@
   "japanese-wrap":
     characterWidth: {}
   linter: {}
-  "linter-jshint": {}
-  "linter-perl":
-    incPathsFromProjectRoot: [
-      "."
-      "lib"
-      "perllib"
-    ]
   "linter-php": {}
-  "linter-shellcheck": {}
   minimap:
     absoluteMode: true
     plugins:
