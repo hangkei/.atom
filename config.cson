@@ -1,0 +1,39 @@
+"*":
+  core:
+    themes: [
+      "one-dark-ui"
+      "monokai"
+    ]
+  editor:
+    invisibles: {}
+    lineHeight: 1.3
+    showIndentGuide: true
+    showInvisibles: true
+    softWrap: true
+  "exception-reporting":
+    userId: "323d60fb-5bac-8696-f1ac-04ee74c1f249"
+  "highlight-line":
+    enableBackgroundColor: false
+  "japanese-wrap":
+    characterWidth: {}
+  linter: {}
+  "linter-jshint": {}
+  "linter-perl":
+    incPathsFromProjectRoot: [
+      "."
+      "lib"
+      "perllib"
+    ]
+  "linter-php": {}
+  "linter-shellcheck": {}
+  minimap:
+    absoluteMode: true
+    plugins:
+      "minimap-autohide": true
+      "minimap-hide": true
+  welcome:
+    showOnStartup: false
+".html.php.text":
+  editor:
+    softWrap: false
+    tabLength: 4
