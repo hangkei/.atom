@@ -9,3 +9,25 @@
 # atom.workspace.observeTextEditors (editor) ->
 #   editor.onDidSave ->
 #     console.log "Saved! #{editor.getPath()}"
+
+fs = require('fs')
+
+atom.workspace.observeTextEditors (editor) ->
+  try
+    filePath = editor.getPath()
+  catch error
+    return
+  return unless fs.existsSync(filePath)
+
+  jschardet = require 'jschardet'
+  iconv = require 'iconv-lite'
+  fs.readFile filePath, (error, buffer) =>
+    return if error?
+    {encoding} = jschardet.detect(buffer) ? {}
+    encoding = 'utf8' if encoding is 'ascii'
+    encoding = 'euc-jp' if encoding is 'EUC-KR' or encoding is 'windows-1252'
+    return unless iconv.encodingExists(encoding)
+
+    encoding = encoding.toLowerCase().replace(/[^0-9a-z]|:\d{4}$/g, '')
+    editor.setEncoding(encoding)
+  return

@@ -6,3 +6,5 @@ dev
 .node-gyp
 packages
 blob-store
+node_modules
+
