@@ -1,7 +1,7 @@
 "*":
   "autocomplete-plus": {}
   "autoupdate-packages":
-    lastUpdateTimestamp: 1453422673495
+    lastUpdateTimestamp: 1453446559614
   core:
     audioBeep: false
     themes: [
