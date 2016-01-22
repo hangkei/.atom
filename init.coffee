@@ -34,8 +34,8 @@ atom.workspace.observeTextEditors (editor) ->
     encoding = encoding.toLowerCase().replace(/[^0-9a-z]|:\d{4}$/g, '')
     editor.setEncoding(encoding)
 
-  # editor.scan /[\x00-\x08\x0b\x0c\x0e-\x1f]/g, ({replace}) ->
-  #   replace("^P")
+  editor.scan /[\x00-\x08\x0b\x0c\x0e-\x1f]/g, ({stop}) ->
+    atom.notifications.addWarning "replace CtrlCode"
 
   editor.scan /\x00/g, ({replace}) ->
     replace("^@")
