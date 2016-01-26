@@ -1,4 +1,5 @@
 "*":
+  "autoclose-html": {}
   "autocomplete-plus": {}
   core:
     audioBeep: false
@@ -25,9 +26,13 @@
     plugins:
       "minimap-autohide": true
       "minimap-hide": true
+  "symbols-tree-view":
+    autoHide: true
+    autoToggle: true
   "trailing-spaces":
     enableForCursorLines: true
     enableForIndentation: true
+  "vim-mode": {}
   welcome:
     showOnStartup: false
 ".html.php.text":
