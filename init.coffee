@@ -27,12 +27,16 @@ atom.workspace.observeTextEditors (editor) ->
   fs.readFile filePath, (error, buffer) ->
     return if error?
     {encoding} = jschardet.detect(buffer) ? {}
+    encoding = encoding
     encoding = 'utf8' if encoding is 'ascii' or encoding is 'windows-1252'
     encoding = 'euc-jp' if encoding is 'EUC-KR'
     return unless iconv.encodingExists(encoding)
 
+    atom.notifications.addInfo encoding, detail:editor.getTitle()
+
     encoding = encoding.toLowerCase().replace(/[^0-9a-z]|:\d{4}$/g, '')
     editor.setEncoding(encoding)
+
 
   editor.scan /[\x00-\x08\x0b\x0c\x0e-\x1f]/g, ({stop}) ->
     atom.notifications.addWarning "replace CtrlCode"
