@@ -33,7 +33,6 @@ atom.workspace.observeTextEditors (editor) ->
     return unless iconv.encodingExists(encoding)
 
     atom.notifications.addInfo encoding, detail:editor.getTitle()
-
     encoding = encoding.toLowerCase().replace(/[^0-9a-z]|:\d{4}$/g, '')
     editor.setEncoding(encoding)
 

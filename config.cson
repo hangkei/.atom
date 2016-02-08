@@ -10,7 +10,6 @@
   editor:
     invisibles: {}
     lineHeight: 1.3
-    preferredLineLength: 100
     showIndentGuide: true
     showInvisibles: true
     softTabs: false
