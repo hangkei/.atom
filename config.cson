@@ -29,6 +29,7 @@
     absoluteMode: true
     plugins:
       "minimap-autohide": true
+      "minimap-autohideDecorationsZIndex": 0
       "minimap-hide": true
   "symbols-tree-view":
     autoHide: true
