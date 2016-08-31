@@ -42,6 +42,8 @@
   "vim-mode": {}
   welcome:
     showOnStartup: false
+  whitespace:
+    removeTrailingWhitespace: false
 ".html.php.text":
   editor:
     softWrap: false
