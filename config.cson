@@ -33,6 +33,8 @@
       "minimap-autohide": true
       "minimap-autohideDecorationsZIndex": 0
       "minimap-hide": true
+  "php-debug":
+    currentPanelMode: "bottom"
   "symbols-tree-view":
     autoHide: true
     autoToggle: true
