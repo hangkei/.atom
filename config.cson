@@ -8,6 +8,17 @@
   "autocomplete-plus": {}
   core:
     audioBeep: false
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      ".hgflow"
+      ".hgignore"
+      ".hgtags"
+    ]
     packagesWithKeymapsDisabled: [
       "atom-fis3-smarty"
     ]
@@ -45,6 +56,7 @@
     enableForCursorLines: true
     enableForIndentation: true
   "tree-view":
+    hideIgnoredNames: true
     hideVcsIgnoredFiles: true
   "vim-mode": {}
   welcome:
