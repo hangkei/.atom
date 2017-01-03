@@ -8,6 +8,9 @@
   "autocomplete-plus": {}
   core:
     audioBeep: false
+    packagesWithKeymapsDisabled: [
+      "atom-fis3-smarty"
+    ]
     telemetryConsent: "no"
     themes: [
       "one-dark-ui"
