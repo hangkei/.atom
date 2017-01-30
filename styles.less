@@ -9,8 +9,7 @@
  * http://lesscss.org
  */
 
-
-/*
+ /*
  * Examples
  * (To see them, uncomment and save)
  */
@@ -27,11 +26,12 @@ atom-text-editor {
 }
 
 // To style other content in the text editor's shadow DOM, use the ::shadow expression
-atom-text-editor::shadow .cursor {
+atom-text-editor.editor .cursor {
   // border-color: red;
 }
 
-atom-text-editor, atom-text-editor::shadow {
+
+atom-text-editor, atom-text-editor.editor {
   .highlight.ideographic-space {
     .region:after {
       color: #ff0ba5;

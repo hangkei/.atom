@@ -47,6 +47,8 @@
     plugins:
       "minimap-autohide": true
       "minimap-autohideDecorationsZIndex": 0
+      "minimap-autohider": true
+      "minimap-autohiderDecorationsZIndex": 0
       "minimap-hide": true
   "php-debug":
     currentPanelMode: "bottom"
