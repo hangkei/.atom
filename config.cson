@@ -41,7 +41,8 @@
     enableBackgroundColor: false
   linter:
     errorPanelHeight: 51
-  "linter-php": {}
+  "linter-php":
+    executablePath: "/Users/keiju/.phpbrew/php/php-7.0.12/bin/php"
   minimap:
     absoluteMode: true
     plugins:
