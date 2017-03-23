@@ -39,8 +39,7 @@
     userId: "323d60fb-5bac-8696-f1ac-04ee74c1f249"
   "highlight-line":
     enableBackgroundColor: false
-  linter:
-    errorPanelHeight: 51
+  linter: {}
   "linter-php":
     executablePath: "/Users/keiju/.phpbrew/php/php-7.0.12/bin/php"
   minimap:
