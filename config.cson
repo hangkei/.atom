@@ -42,6 +42,7 @@
   linter: {}
   "linter-php":
     executablePath: "/Users/keiju/.phpbrew/php/php-7.0.12/bin/php"
+  "linter-ui-default": {}
   minimap:
     absoluteMode: true
     plugins:
