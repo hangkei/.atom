@@ -1,4 +1,5 @@
 "*":
+  "Remote-FTP": {}
   "atom-beautify":
     _analyticsUserId: "5ae92ac1-6ad4-4101-a578-dd420683655d"
     _loggerLevel: "error"
