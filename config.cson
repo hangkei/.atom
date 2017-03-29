@@ -18,6 +18,7 @@
       ".hgflow"
       ".hgignore"
       ".hgtags"
+      ".hgcheck"
     ]
     packagesWithKeymapsDisabled: [
       "atom-fis3-smarty"
