@@ -3,6 +3,8 @@
   "atom-beautify":
     _analyticsUserId: "5ae92ac1-6ad4-4101-a578-dd420683655d"
     _loggerLevel: "error"
+    general:
+      _analyticsUserId: "6a3ccb71-570a-40f1-bd3a-d32d09873138"
     php_cs_fixer_path: "/usr/local/bin/php-cs-fixer"
     sql_indent_size: 2
   "autoclose-html": {}
@@ -39,6 +41,8 @@
     softTabs: false
   "exception-reporting":
     userId: "323d60fb-5bac-8696-f1ac-04ee74c1f249"
+  "export-html":
+    openIn: "browser"
   "highlight-line":
     enableBackgroundColor: false
   linter: {}
@@ -63,6 +67,7 @@
     enableForIndentation: true
   "tree-view":
     hideIgnoredNames: true
+    hideVcsIgnoredFiles: true
   "vim-mode": {}
   welcome:
     showOnStartup: false
