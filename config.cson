@@ -50,7 +50,6 @@
     executablePath: "/Users/keiju/.phpbrew/php/php-7.0.12/bin/php"
   "linter-ui-default":
     panelHeight: 69
-    showPanel: true
   minimap:
     absoluteMode: true
     plugins:
