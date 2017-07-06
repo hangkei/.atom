@@ -49,6 +49,7 @@
   "linter-php":
     executablePath: "/Users/keiju/.phpbrew/php/php-7.0.12/bin/php"
   "linter-ui-default":
+    hidePanelWhenEmpty: true
     panelHeight: 69
   minimap:
     absoluteMode: true
@@ -68,7 +69,6 @@
     enableForIndentation: true
   "tree-view":
     hideIgnoredNames: true
-    hideVcsIgnoredFiles: true
   "vim-mode": {}
   welcome:
     showOnStartup: false
