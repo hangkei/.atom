@@ -11,6 +11,9 @@
   "autocomplete-plus": {}
   core:
     audioBeep: false
+    disabledPackages: [
+      "linter"
+    ]
     ignoredNames: [
       ".git"
       ".hg"
