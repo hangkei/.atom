@@ -41,7 +41,6 @@
     preferredLineLength: 100
     showIndentGuide: true
     showInvisibles: true
-    softTabs: false
   "exception-reporting":
     userId: "323d60fb-5bac-8696-f1ac-04ee74c1f249"
   "export-html":
