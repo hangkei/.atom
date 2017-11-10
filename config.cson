@@ -72,7 +72,6 @@
     enableForIndentation: true
   "tree-view":
     hideIgnoredNames: true
-    hideVcsIgnoredFiles: true
   "vim-mode": {}
   welcome:
     showOnStartup: false
