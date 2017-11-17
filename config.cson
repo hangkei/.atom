@@ -11,9 +11,6 @@
   "autocomplete-plus": {}
   core:
     audioBeep: false
-    disabledPackages: [
-      "linter"
-    ]
     ignoredNames: [
       ".git"
       ".hg"
@@ -51,9 +48,19 @@
   linter: {}
   "linter-php":
     executablePath: "/Users/keiju/.phpbrew/php/php-7.0.12/bin/php"
+  "linter-phpmd":
+    executablePath: "/usr/local/bin/phpmd"
+    rulesOrConfigFile: [
+      "codesize"
+      "controversial"
+      "design"
+      "naming"
+      "unusedcode"
+    ]
   "linter-ui-default":
     hidePanelWhenEmpty: true
-    panelHeight: 69
+    panelHeight: 178
+    showPanel: true
   minimap:
     absoluteMode: true
     plugins:
