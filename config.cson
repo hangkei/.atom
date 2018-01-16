@@ -11,6 +11,10 @@
   "autocomplete-plus": {}
   core:
     audioBeep: false
+    disabledPackages: [
+      "linter-php"
+      "linter"
+    ]
     ignoredNames: [
       ".git"
       ".hg"
@@ -38,6 +42,7 @@
     preferredLineLength: 100
     showIndentGuide: true
     showInvisibles: true
+    tabType: "soft"
   "exception-reporting":
     userId: "323d60fb-5bac-8696-f1ac-04ee74c1f249"
   "export-html":
@@ -87,8 +92,8 @@
     removeTrailingWhitespace: false
 ".html.php.text":
   editor:
-    softWrap: false
-    tabLength: 4
+    softWrap: true
+    tabLength: 2
 ".perl.source":
   editor:
-    tabLength: 4
+    tabLength: 2
