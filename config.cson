@@ -13,6 +13,7 @@
   "autocomplete-plus": {}
   "autocomplete-python":
     useKite: false
+  "autocomplete-ruby": {}
   core:
     audioBeep: false
     disabledPackages: [
