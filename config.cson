@@ -1,20 +1,25 @@
 "*":
   "Remote-FTP": {}
   "atom-beautify":
-    _analyticsUserId: "5ae92ac1-6ad4-4101-a578-dd420683655d"
-    _loggerLevel: "error"
     general:
-      _analyticsUserId: "6a3ccb71-570a-40f1-bd3a-d32d09873138"
-    php_cs_fixer_path: "/usr/local/bin/php-cs-fixer"
-    sql_indent_size: 2
+      _analyticsUserId: "5ae92ac1-6ad4-4101-a578-dd420683655d"
+      _loggerLevel: "error"
+    php:
+      cs_fixer_path: "/usr/local/bin/php-cs-fixer"
+    python:
+      default_beautifier: "yapf"
+      formater: "yapf"
   "autoclose-html": {}
   "autocomplete-plus": {}
+  "autocomplete-python":
+    useKite: false
   core:
     audioBeep: false
     disabledPackages: [
       "linter-php"
       "linter"
     ]
+    excludeVcsIgnoredPaths: false
     ignoredNames: [
       ".git"
       ".hg"
