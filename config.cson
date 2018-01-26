@@ -13,7 +13,8 @@
   "autocomplete-plus": {}
   "autocomplete-python":
     useKite: false
-  "autocomplete-ruby": {}
+  "autocomplete-ruby":
+    rsensePath: "/Users/keiju/.rbenv/shims/rsense"
   core:
     audioBeep: false
     disabledPackages: [
