@@ -1,5 +1,6 @@
 "*":
   "Remote-FTP": {}
+  "atom-autocomplete-php": {}
   "atom-beautify":
     general:
       _analyticsUserId: "5ae92ac1-6ad4-4101-a578-dd420683655d"
