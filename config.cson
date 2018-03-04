@@ -83,6 +83,8 @@
       "minimap-hide": true
   "php-debug":
     currentPanelMode: "bottom"
+  "split-diff":
+    turnOffSoftWrap: true
   "symbols-tree-view":
     autoHide: true
     autoToggle: true
