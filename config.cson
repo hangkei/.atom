@@ -44,7 +44,7 @@
       "monokai"
     ]
   editor:
-    fontSize: 13
+    fontSize: 12
     invisibles: {}
     lineHeight: 1.2
     preferredLineLength: 100

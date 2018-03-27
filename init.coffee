@@ -32,7 +32,7 @@ atom.workspace.observeTextEditors (editor) ->
     encoding = 'euc-jp' if encoding is 'EUC-KR'
     return unless encodingExists encoding
 
-    atom.notifications.addInfo encoding, detail:editor.getTitle()
+    atom.notifications.addInfo encoding, detail:editor.getTitle() if encoding isnt 'utf8'
     encoding = encoding.toLowerCase().replace(/[^0-9a-z]|:\d{4}$/g, '')
     editor.setEncoding(encoding)
 

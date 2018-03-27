@@ -9,3 +9,4 @@ blob-store
 node_modules
 projects.cson
 
+split-diff
