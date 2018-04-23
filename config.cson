@@ -103,7 +103,7 @@
 ".html.php.text":
   editor:
     softWrap: true
-    tabLength: 2
+    tabLength: 4
 ".perl.source":
   editor:
     tabLength: 2
