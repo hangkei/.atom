@@ -2,14 +2,17 @@
   "Remote-FTP": {}
   "atom-autocomplete-php": {}
   "atom-beautify":
+    blade:
+      end_with_newline: true
     general:
       _analyticsUserId: "5ae92ac1-6ad4-4101-a578-dd420683655d"
       _loggerLevel: "error"
-    php:
-      cs_fixer_path: "/usr/local/bin/php-cs-fixer"
+    php: {}
     python:
       default_beautifier: "yapf"
       formater: "yapf"
+  "atom-ide-ui":
+    use: {}
   "autoclose-html": {}
   "autocomplete-plus": {}
   "autocomplete-python":
@@ -44,10 +47,9 @@
       "monokai"
     ]
   editor:
-    fontSize: 12
     invisibles: {}
     lineHeight: 1.2
-    preferredLineLength: 100
+    preferredLineLength: 500
     showIndentGuide: true
     showInvisibles: true
     tabType: "soft"
@@ -83,6 +85,7 @@
       "minimap-hide": true
   "php-debug":
     currentPanelMode: "bottom"
+    showWelcome: false
   "split-diff":
     turnOffSoftWrap: true
   "symbols-tree-view":
@@ -93,13 +96,16 @@
     enableForIndentation: true
   "tree-view":
     hideIgnoredNames: true
-    hideVcsIgnoredFiles: true
   "vim-mode": {}
   welcome:
     showOnStartup: false
   whitespace:
     ensureSingleTrailingNewline: false
     removeTrailingWhitespace: false
+".blade.html.php.text":
+  editor:
+    commentEnd: " --}}"
+    commentStart: "{{-- "
 ".html.php.text":
   editor:
     softWrap: true
