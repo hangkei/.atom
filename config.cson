@@ -47,6 +47,7 @@
       "monokai"
     ]
   editor:
+    fontSize: 13
     invisibles: {}
     lineHeight: 1.2
     preferredLineLength: 500
@@ -106,8 +107,10 @@
   editor:
     commentEnd: " --}}"
     commentStart: "{{-- "
+    tabLength: 4
 ".html.php.text":
   editor:
+    showIndentGuide: true
     softWrap: true
     tabLength: 4
 ".perl.source":
