@@ -14,6 +14,9 @@
   "atom-ide-ui":
     use: {}
   "autoclose-html": {}
+  "autocomplete-paths":
+    enableHtmlSupport: true
+    ignoreSubmodules: true
   "autocomplete-plus": {}
   "autocomplete-python":
     useKite: false
@@ -24,6 +27,7 @@
     disabledPackages: [
       "linter-php"
       "linter"
+      "autocomplete-paths"
     ]
     excludeVcsIgnoredPaths: false
     ignoredNames: [
@@ -37,6 +41,7 @@
       ".hgignore"
       ".hgtags"
       ".hgcheck"
+      "node_modules"
     ]
     packagesWithKeymapsDisabled: [
       "atom-fis3-smarty"
