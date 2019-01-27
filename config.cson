@@ -25,7 +25,6 @@
   core:
     audioBeep: false
     disabledPackages: [
-      "linter-php"
       "linter"
       "autocomplete-paths"
       "php-debug"
