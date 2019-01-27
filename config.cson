@@ -28,6 +28,7 @@
       "linter-php"
       "linter"
       "autocomplete-paths"
+      "php-debug"
     ]
     excludeVcsIgnoredPaths: false
     ignoredNames: [
