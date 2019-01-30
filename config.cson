@@ -25,25 +25,6 @@
     rsensePath: "/Users/keiju/.rbenv/shims/rsense"
   core:
     audioBeep: false
-    disabledPackages: [
-      "php-debug"
-      "symbols-tree-view"
-      "autocomplete-ruby"
-      "remote-ftp"
-      "autoclose-html"
-      "atom-django"
-      "linter-ui-default"
-      "linter"
-      "autocomplete-paths"
-      "intentions"
-      "linter-coffeelint"
-      "linter-php"
-      "linter-phpmd"
-      "linter-python"
-      "linter-ruby"
-      "script"
-      "vim-mode"
-    ]
     excludeVcsIgnoredPaths: false
     ignoredNames: [
       ".git"
