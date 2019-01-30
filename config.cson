@@ -12,6 +12,7 @@
       default_beautifier: "yapf"
       formater: "yapf"
   "atom-ide-ui":
+    "atom-ide-debugger": {}
     use: {}
   "autoclose-html": {}
   "autocomplete-paths":
@@ -25,9 +26,23 @@
   core:
     audioBeep: false
     disabledPackages: [
+      "php-debug"
+      "symbols-tree-view"
+      "autocomplete-ruby"
+      "remote-ftp"
+      "autoclose-html"
+      "atom-django"
+      "linter-ui-default"
       "linter"
       "autocomplete-paths"
-      "php-debug"
+      "intentions"
+      "linter-coffeelint"
+      "linter-php"
+      "linter-phpmd"
+      "linter-python"
+      "linter-ruby"
+      "script"
+      "vim-mode"
     ]
     excludeVcsIgnoredPaths: false
     ignoredNames: [
@@ -65,9 +80,11 @@
   "goto-definition": {}
   "highlight-line":
     enableBackgroundColor: false
+  "ide-php":
+    phpPath: "/Users/keiju/.phpbrew/php/php-7.2.1/bin/php"
   linter: {}
   "linter-php":
-    executablePath: "/Users/keiju/.phpbrew/php/php-7.0.12/bin/php"
+    executablePath: "/Users/keiju/.phpbrew/php/php-7.2.1/bin/php"
   "linter-phpmd":
     executablePath: "/usr/local/bin/phpmd"
     rulesOrConfigFile: [
@@ -91,6 +108,7 @@
   "php-debug":
     currentPanelMode: "bottom"
     showWelcome: false
+  "project-manager": {}
   "split-diff":
     turnOffSoftWrap: true
   "symbols-tree-view":
