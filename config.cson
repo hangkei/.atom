@@ -37,7 +37,7 @@
       ".hgignore"
       ".hgtags"
       ".hgcheck"
-      "node_modules"
+      ""
     ]
     packagesWithKeymapsDisabled: [
       "atom-fis3-smarty"
@@ -110,6 +110,7 @@
   editor:
     commentEnd: " --}}"
     commentStart: "{{-- "
+    tabLength: 2
 ".html.php.text":
   editor:
     showIndentGuide: true
