@@ -53,6 +53,7 @@
     preferredLineLength: 500
     showIndentGuide: true
     showInvisibles: true
+    tabLength: 4
     tabType: "soft"
   "exception-reporting":
     userId: "323d60fb-5bac-8696-f1ac-04ee74c1f249"
@@ -106,6 +107,9 @@
   whitespace:
     ensureSingleTrailingNewline: false
     removeTrailingWhitespace: false
+".basic.html.text":
+  editor:
+    tabLength: 2
 ".blade.html.php.text":
   editor:
     commentEnd: " --}}"
@@ -115,7 +119,18 @@
   editor:
     showIndentGuide: true
     softWrap: true
-    tabLength: 4
+".html.text.vue":
+  editor:
+    tabLength: 2
+".js.source":
+  editor:
+    tabLength: 2
+".json.source":
+  editor:
+    tabLength: 2
 ".perl.source":
+  editor:
+    tabLength: 2
+".plain.text":
   editor:
     tabLength: 2
