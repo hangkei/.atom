@@ -11,3 +11,4 @@ projects.cson
 
 split-diff
 recovery
+.atom-socket-secret-*
