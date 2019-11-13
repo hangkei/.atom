@@ -7,13 +7,21 @@
     general:
       _analyticsUserId: "5ae92ac1-6ad4-4101-a578-dd420683655d"
       _loggerLevel: "error"
+    json:
+      indent_with_tabs: true
     php: {}
     python:
       default_beautifier: "yapf"
       formater: "yapf"
+    vue:
+      fill_tab: false
+      indent_size: 2
+      tab_size: 2
   "atom-ide-ui":
     "atom-ide-debugger": {}
     use: {}
+  "atom-package-deps":
+    ignored: []
   "autoclose-html": {}
   "autocomplete-paths":
     enableHtmlSupport: true
@@ -25,6 +33,9 @@
     rsensePath: "/Users/keiju/.rbenv/shims/rsense"
   core:
     audioBeep: false
+    disabledPackages: [
+      "linter"
+    ]
     excludeVcsIgnoredPaths: false
     ignoredNames: [
       ".git"
@@ -63,10 +74,10 @@
   "highlight-line":
     enableBackgroundColor: false
   "ide-php":
-    phpPath: "/Users/keiju/.phpbrew/php/php-7.2.1/bin/php"
+    phpPath: "/usr/local/bin/php"
   linter: {}
   "linter-php":
-    executablePath: "/Users/keiju/.phpbrew/php/php-7.2.1/bin/php"
+    executablePath: "/usr/local/bin/php"
   "linter-phpmd":
     executablePath: "/usr/local/bin/phpmd"
     rulesOrConfigFile: [
@@ -118,9 +129,6 @@
   editor:
     showIndentGuide: true
     softWrap: true
-".html.text.vue":
-  editor:
-    tabLength: 2
 ".js.source":
   editor:
     tabLength: 2
