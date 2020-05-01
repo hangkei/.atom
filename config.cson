@@ -22,6 +22,8 @@
     use: {}
   "atom-package-deps":
     ignored: []
+  "auto-encoding":
+    forceEncTypes: "windows1252:utf8"
   "autoclose-html": {}
   "autocomplete-paths":
     enableHtmlSupport: true
@@ -35,6 +37,7 @@
     audioBeep: false
     disabledPackages: [
       "linter"
+      "whitespace"
     ]
     excludeVcsIgnoredPaths: false
     ignoredNames: [
@@ -65,7 +68,6 @@
     showIndentGuide: true
     showInvisibles: true
     tabLength: 4
-    tabType: "soft"
   "exception-reporting":
     userId: "323d60fb-5bac-8696-f1ac-04ee74c1f249"
   "export-html":
@@ -74,10 +76,11 @@
   "highlight-line":
     enableBackgroundColor: false
   "ide-php":
-    phpPath: "/usr/local/bin/php"
+    phpPath: "/usr/bin/php"
   linter: {}
   "linter-php":
     executablePath: "/usr/local/bin/php"
+  "linter-phpcs": {}
   "linter-phpmd":
     executablePath: "/usr/local/bin/phpmd"
     rulesOrConfigFile: [
@@ -98,6 +101,7 @@
       "minimap-autohider": true
       "minimap-autohiderDecorationsZIndex": 0
       "minimap-hide": true
+  "php-cs-fixer": {}
   "php-debug":
     currentPanelMode: "bottom"
     showWelcome: false
@@ -125,6 +129,9 @@
     commentEnd: " --}}"
     commentStart: "{{-- "
     tabLength: 2
+".editorconfig.source":
+  editor:
+    tabType: "auto"
 ".html.php.text":
   editor:
     showIndentGuide: true
